@@ -1,0 +1,36 @@
+{
+  "name": "@balaji003/lantransfer",
+  "version": "1.0.11",
+  "description": "LAN File Transfer — peer-to-peer file sharing over local network. Zero dependencies.",
+  "main": "server.js",
+  "bin": {
+    "lantransfer": "./bin/cli.js"
+  },
+  "files": [
+    "server.js",
+    "public/",
+    "bin/",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "lan",
+    "file-transfer",
+    "local",
+    "share",
+    "wifi",
+    "peer-to-peer",
+    "cli"
+  ],
+  "author": "Balaji Sankaran",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/user/lantransfer"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
